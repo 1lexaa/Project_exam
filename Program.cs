@@ -10,7 +10,7 @@ namespace Project
 {
    internal class Program
     {
-        static void Main()
+        static void Main1()
         {
             Console.Clear();
             new Game().Init();
@@ -19,7 +19,7 @@ namespace Project
 
 
 
-        public static void Main1()
+        public static void Main()
         {
 
             try
@@ -33,6 +33,7 @@ namespace Project
                     Console.WriteLine("\n1 - Sign in");
                     Console.WriteLine("2 - Sign up");
                     Console.WriteLine("3 - All Users");
+                    Console.WriteLine("4 - Start Game");
                     Console.WriteLine("Esc -  exit");
 
                     option = Console.ReadKey(true);
@@ -49,6 +50,10 @@ namespace Project
                     {
                         auth.Print();
                     }
+                    else if(option.Key == ConsoleKey.D4)
+                    {
+                        new Game().Init();
+                    }
 
                 } while (option.Key != ConsoleKey.Escape);
             }
@@ -60,6 +65,9 @@ namespace Project
             {
                 Console.WriteLine(ex.Message);
             }
+
+            
+
         }
 }
 
