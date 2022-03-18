@@ -1,0 +1,15 @@
+/Users/1lexaa/Documents/учеба/Project_exam/obj/Debug/net6.0/Project_exam.csproj.AssemblyReference.cache
+/Users/1lexaa/Documents/учеба/Project_exam/obj/Debug/net6.0/Project_exam.GeneratedMSBuildEditorConfig.editorconfig
+/Users/1lexaa/Documents/учеба/Project_exam/obj/Debug/net6.0/Project_exam.AssemblyInfoInputs.cache
+/Users/1lexaa/Documents/учеба/Project_exam/obj/Debug/net6.0/Project_exam.AssemblyInfo.cs
+/Users/1lexaa/Documents/учеба/Project_exam/obj/Debug/net6.0/Project_exam.csproj.CoreCompileInputs.cache
+/Users/1lexaa/Documents/учеба/Project_exam/bin/Debug/net6.0/Project_exam
+/Users/1lexaa/Documents/учеба/Project_exam/bin/Debug/net6.0/Project_exam.deps.json
+/Users/1lexaa/Documents/учеба/Project_exam/bin/Debug/net6.0/Project_exam.runtimeconfig.json
+/Users/1lexaa/Documents/учеба/Project_exam/bin/Debug/net6.0/Project_exam.dll
+/Users/1lexaa/Documents/учеба/Project_exam/bin/Debug/net6.0/Project_exam.pdb
+/Users/1lexaa/Documents/учеба/Project_exam/obj/Debug/net6.0/Project_exam.dll
+/Users/1lexaa/Documents/учеба/Project_exam/obj/Debug/net6.0/refint/Project_exam.dll
+/Users/1lexaa/Documents/учеба/Project_exam/obj/Debug/net6.0/Project_exam.pdb
+/Users/1lexaa/Documents/учеба/Project_exam/obj/Debug/net6.0/Project_exam.genruntimeconfig.cache
+/Users/1lexaa/Documents/учеба/Project_exam/obj/Debug/net6.0/ref/Project_exam.dll
