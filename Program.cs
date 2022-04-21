@@ -10,13 +10,29 @@ namespace Project
 {
    internal class Program
     {
-        static void Main1()
-        {
-            Console.Clear();
-            new Game().Init();
-        }
-    
 
+public static void StartGame()
+{
+    ConsoleKeyInfo option;
+    
+    Console.WriteLine("\n1 - Start Game");
+    Console.WriteLine("Esc - exit");
+
+
+option = Console.ReadKey(true);
+                    Console.Clear();
+    if(option.Key == ConsoleKey.D1)
+    {
+        new Game().Init();
+    }
+    else
+    {
+    return;
+
+    }
+
+    
+}
 
 
         public static void Main()
@@ -33,7 +49,6 @@ namespace Project
                     Console.WriteLine("\n1 - Sign in");
                     Console.WriteLine("2 - Sign up");
                     Console.WriteLine("3 - All Users");
-                    Console.WriteLine("4 - Start Game");
                     Console.WriteLine("Esc -  exit");
 
                     option = Console.ReadKey(true);
@@ -41,19 +56,20 @@ namespace Project
                     if (option.Key == ConsoleKey.D1)
                     {
                         auth.LINQAutentification();
+                        break;
+                    
                     }
                     else if (option.Key == ConsoleKey.D2)
                     {
                         auth.Add();
+            
+                        break;
                     }
                     else if (option.Key == ConsoleKey.D3)
                     {
                         auth.Print();
                     }
-                    else if(option.Key == ConsoleKey.D4)
-                    {
-                        new Game().Init();
-                    }
+
 
                 } while (option.Key != ConsoleKey.Escape);
             }
@@ -65,7 +81,7 @@ namespace Project
             {
                 Console.WriteLine(ex.Message);
             }
-
+StartGame();
             
 
         }
