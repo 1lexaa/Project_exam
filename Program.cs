@@ -16,6 +16,7 @@ public static void StartGame()
     ConsoleKeyInfo option;
     
     Console.WriteLine("\n1 - Start Game");
+    Console.WriteLine("2 - All Users");
     Console.WriteLine("Esc - exit");
 
 
@@ -25,6 +26,13 @@ option = Console.ReadKey(true);
     {
         new Game().Init();
     }
+
+    else if (option.Key == ConsoleKey.D2)
+    
+     {
+                         auth.Print();
+
+                    }
     else
     {
     return;
@@ -37,7 +45,7 @@ option = Console.ReadKey(true);
 
         public static void Main()
         {
-
+Console.Clear();
             try
             {
                 ConsoleKeyInfo option;
@@ -48,7 +56,7 @@ option = Console.ReadKey(true);
                 {
                     Console.WriteLine("\n1 - Sign in");
                     Console.WriteLine("2 - Sign up");
-                    Console.WriteLine("3 - All Users");
+                    // Console.WriteLine("3 - All Users");
                     Console.WriteLine("Esc -  exit");
 
                     option = Console.ReadKey(true);
@@ -65,10 +73,10 @@ option = Console.ReadKey(true);
             
                         break;
                     }
-                    else if (option.Key == ConsoleKey.D3)
-                    {
-                        auth.Print();
-                    }
+                    // else if (option.Key == ConsoleKey.D3)
+                    // {
+                    //     auth.Print();
+                    // }
 
 
                 } while (option.Key != ConsoleKey.Escape);
